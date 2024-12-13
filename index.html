@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Science Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Masuddar's Portfolio</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certificates">Skills & Certificates & Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <section class="home" id="home">
+    <video autoplay muted loop class="video-background">
+      <source src="viid4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="home-content" data-aos="fade-up">
+      <h1 id="typing-text">Welcome to My Data Science Portfolio</h1>
+      <p id="typing-description">Discover my projects and skills in data science</p>
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="OBCsigned.pdf" class="btn" download>Download Resume</a>
+      <a href="#about" class="btn">About Me</a> 
+    </div>
+  </section>
+  
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title" data-aos="fade-up"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left" data-aos="fade-right">
+          <img src="pic1.jpg" alt="Profile Picture">
+        </div>
+        <div class="right" data-aos="fade-left">
+          <div class="topic">I am a Data Scientist</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro veritatis pariatur, nobis voluptatem ipsum repellat nemo quisquam error reprehenderit recusandae odio vel, suscipit. Voluptas mollitia accusantium quaerat aspernatur labore dolorum placeat ipsa sint nam perspiciatis eos consectetur veritatis debitis.</p>
+          <a href="OBCsigned.pdf" class="btn" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title" data-aos="fade-up"><span>My Projects</span></div>
+      <div class="project-cards">
+        <div class="card" data-aos="zoom-in">
+          <img src="p1.jpg" alt="Project 1">
+          <div class="info">
+            <h3>PowerBI Projects</h3>
+            <p>Brief description of the project.</p>
+            <a href="powerbi.html" class="btn">View PowerBi Projects</a>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <img src="p2.jpg" alt="Project 2">
+          <div class="info">
+            <h3>Project Title 2</h3>
+            <p>Brief description of the project.</p>
+            <a href="project-details.html" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+          <img src="p3.jpg" alt="Project 3">
+          <div class="info">
+            <h3>Project Title 3</h3>
+            <p>Brief description of the project.</p>
+            <a href="project-details.html" class="btn">Read More</a>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="600">
+          <img src="p4.jpg" alt="Project 4">
+          <div class="info">
+            <h3>Project Title 4</h3>
+            <p>Brief description of the project.</p>
+            <a href="project-details.html" class="btn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="content">
+      <div class="title" data-aos="fade-up"><span>Experience</span></div>
+      <div class="experience-details">
+        <!-- Add your experience details here -->
+        <div class="job" data-aos="fade-up">
+          <h3>Job Title</h3>
+          <p>Company Name</p>
+          <p>Brief description of the role and responsibilities.</p>
+        </div>
+        <!-- Repeat for other experiences -->
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates" id="certificates">
+    <div class="content">
+      <div class="title" data-aos="fade-up"><span>Certificates & Achievements</span></div>
+      <div class="certificates-details">
+        <!-- Add your achievements and certificates here -->
+        <div class="achievement" data-aos="fade-up">
+          <h3>Certificate or Achievement Title</h3>
+          <p>Brief description of the achievement or certificate.</p>
+        </div>
+        <!-- Repeat for other achievements and certificates -->
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title" data-aos="fade-up"><span>Contact Me</span></div>
+      <div class="contact-details" data-aos="fade-up">
+        <p>If you have any project in mind or just want to say hi, feel free to contact me!</p>
+        <form action="https://formspree.io/f/xjkvdzzp" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <input type="submit" class="btn" value="Send Message">
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Your Name</a> | &#169; 2024 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
